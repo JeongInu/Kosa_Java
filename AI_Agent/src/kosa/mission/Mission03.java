@@ -32,19 +32,12 @@ public class Mission03 {
 		int odd = 0;
 		
 		even += (num % 2 == 0) ? 1 : 0;
-		odd += (num % 2 != 0) ? 1 : 0;
-
 		even += (num1 % 2 == 0) ? 1 : 0;
-		odd += (num1 % 2 != 0) ? 1 : 0;
-
 		even += (num2 % 2 == 0) ? 1 : 0;
-		odd += (num2 % 2 != 0) ? 1 : 0;
-
 		even += (num3 % 2 == 0) ? 1 : 0;
-		odd += (num3 % 2 != 0) ? 1 : 0;
-
 		even += (num4 % 2 == 0) ? 1 : 0;
-		odd += (num4 % 2 != 0) ? 1 : 0;
+		
+		odd = 5 - even;
 		
 		System.out.println("Â¦¼ö : " + even + "°³, È¦¼ö : " + odd + "°³");
 		
